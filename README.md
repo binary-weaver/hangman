@@ -4,9 +4,7 @@
 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [License](#license)
+- [Usage](#usage) 
 
 ## Description
 
@@ -22,7 +20,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - **Object-Oriented Programming (OOP):** The project's structure, with a `Hangman` class that encapsulates the game's logic and state, introduced me to the principles of object-oriented programming (OOP). I gained experience in defining classes, methods, and attributes to create organized and maintainable code.
 - **Error Handling and Exception Handling:** Dealing with potential errors, such as invalid input, and providing informative error messages enhanced my knowledge of error handling and exception handling in Python.
 
-## Hangman Python File
+## Installation
 
 The `hangman.py` file contains the Python code for the Hangman game implementation. This code includes the following components:
 
@@ -30,8 +28,19 @@ The `hangman.py` file contains the Python code for the Hangman game implementati
 - Methods for checking guesses, asking for user input, and initializing the game.
 - Integration with a list of words to choose from randomly.
 
+1. Clone this repository to your local machine using:
+
+   ```shell
+   git clone https://github.com/binary-weaver/hangman
+
+2. Navigate to the project directory:
+    ```shell
+    cd hangman 
+3. Run the game by executing the following command:
+    ```shell
+    python milestone_5.py
 ### Usage
 
-To play the Hangman game, you can run the `hangman.py` script using Python. Follow the prompts to guess letters and try to uncover the hidden word.
-
-## File Structure
+- To play the Hangman game, you can run the `milestone_5.py` script using Python.  
+- Follow the prompts to guess letters and try to uncover the hidden word.        
+- The game will provide feedback after each guess and inform you of the outcome.
